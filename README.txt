@@ -1,3 +1,5 @@
+TenderSupport for iOS allows developers to integrate the wonderful TenderApp support system into their application. Easily get user feedback on bugs, problems, and suggestions. Adding this to your application can help decrease negative reviews from bugs or crashes. Takes about five minutes to configure and add to your application.
+
 Easily integrate Tender support into your applications. In less than five minutes, you can add this feature into your application.
 
 How To Setup this Tender Support Framework:
