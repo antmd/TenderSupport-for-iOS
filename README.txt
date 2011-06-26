@@ -32,3 +32,5 @@ Please note that Tender's Support (help.tenderapp.com) should be contacted for i
 
 
 TenderApp is trademark of ENTP. SonsterMedia claims no ownership over Tender nor the Tender brand. Tender Support for iOS is provided AS-IS to help other developers.
+
+Tender.h and Tender.m are part of https://github.com/MattNewberry/Tender
