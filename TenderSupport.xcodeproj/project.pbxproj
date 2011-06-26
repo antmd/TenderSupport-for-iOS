@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0323DB9139C015A00125E58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0323DB8139C015A00125E58 /* UIKit.framework */; };
+		E0323DBB139C015A00125E58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0323DBA139C015A00125E58 /* Foundation.framework */; };
+		E0323DBD139C015A00125E58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0323DBC139C015A00125E58 /* CoreGraphics.framework */; };
+		E0323DC3139C015A00125E58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0323DC1139C015A00125E58 /* InfoPlist.strings */; };
+		E0323DC5139C015A00125E58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0323DC4139C015A00125E58 /* main.m */; };
+		E0323DC9139C015A00125E58 /* TenderSupportAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0323DC8139C015A00125E58 /* TenderSupportAppDelegate.m */; };
+		E0323DCF139C015A00125E58 /* TenderSupportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0323DCE139C015A00125E58 /* TenderSupportViewController.m */; };
+		E079357213B7A1510005E126 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = E079356113B7A1510005E126 /* NSObject+JSON.m */; };
+		E079357313B7A1510005E126 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E079356313B7A1510005E126 /* SBJsonParser.m */; };
+		E079357413B7A1510005E126 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E079356513B7A1510005E126 /* SBJsonStreamParser.m */; };
+		E079357513B7A1510005E126 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = E079356713B7A1510005E126 /* SBJsonStreamParserAdapter.m */; };
+		E079357613B7A1510005E126 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = E079356913B7A1510005E126 /* SBJsonStreamParserState.m */; };
+		E079357713B7A1510005E126 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E079356B13B7A1510005E126 /* SBJsonStreamWriter.m */; };
+		E079357813B7A1510005E126 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = E079356D13B7A1510005E126 /* SBJsonStreamWriterState.m */; };
+		E079357913B7A1510005E126 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = E079356F13B7A1510005E126 /* SBJsonTokeniser.m */; };
+		E079357A13B7A1510005E126 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E079357113B7A1510005E126 /* SBJsonWriter.m */; };
+		E079357D13B7A1CB0005E126 /* NewTenderTicket.m in Sources */ = {isa = PBXBuildFile; fileRef = E079357C13B7A1CB0005E126 /* NewTenderTicket.m */; };
+		E079358013B7A1D30005E126 /* Tender.m in Sources */ = {isa = PBXBuildFile; fileRef = E079357F13B7A1D30005E126 /* Tender.m */; };
+		E079358313B7A1E50005E126 /* Support.png in Resources */ = {isa = PBXBuildFile; fileRef = E079358113B7A1E50005E126 /* Support.png */; };
+		E079358413B7A1E50005E126 /* Support@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E079358213B7A1E50005E126 /* Support@2x.png */; };
+		E079358613B7A1F00005E126 /* NewTenderTicket.xib in Resources */ = {isa = PBXBuildFile; fileRef = E079358513B7A1F00005E126 /* NewTenderTicket.xib */; };
+		E079358813B7A1FC0005E126 /* TenderSupportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E079358713B7A1FC0005E126 /* TenderSupportViewController.xib */; };
+		E079358A13B7A1FF0005E126 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E079358913B7A1FF0005E126 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0323DB4139C015A00125E58 /* TenderSupport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenderSupport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0323DB8139C015A00125E58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0323DBA139C015A00125E58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0323DBC139C015A00125E58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0323DC0139C015A00125E58 /* TenderSupport-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TenderSupport-Info.plist"; sourceTree = "<group>"; };
+		E0323DC2139C015A00125E58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0323DC4139C015A00125E58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0323DC6139C015A00125E58 /* TenderSupport-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TenderSupport-Prefix.pch"; sourceTree = "<group>"; };
+		E0323DC7139C015A00125E58 /* TenderSupportAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TenderSupportAppDelegate.h; sourceTree = "<group>"; };
+		E0323DC8139C015A00125E58 /* TenderSupportAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenderSupportAppDelegate.m; sourceTree = "<group>"; };
+		E0323DCD139C015A00125E58 /* TenderSupportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TenderSupportViewController.h; sourceTree = "<group>"; };
+		E0323DCE139C015A00125E58 /* TenderSupportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenderSupportViewController.m; sourceTree = "<group>"; };
+		E079355F13B7A1510005E126 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		E079356013B7A1510005E126 /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		E079356113B7A1510005E126 /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		E079356213B7A1510005E126 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		E079356313B7A1510005E126 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		E079356413B7A1510005E126 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		E079356513B7A1510005E126 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		E079356613B7A1510005E126 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		E079356713B7A1510005E126 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		E079356813B7A1510005E126 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		E079356913B7A1510005E126 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		E079356A13B7A1510005E126 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		E079356B13B7A1510005E126 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		E079356C13B7A1510005E126 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		E079356D13B7A1510005E126 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		E079356E13B7A1510005E126 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		E079356F13B7A1510005E126 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		E079357013B7A1510005E126 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		E079357113B7A1510005E126 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		E079357B13B7A1CB0005E126 /* NewTenderTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewTenderTicket.h; path = "TenderSupport Addon/NewTenderTicket.h"; sourceTree = "<group>"; };
+		E079357C13B7A1CB0005E126 /* NewTenderTicket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewTenderTicket.m; path = "TenderSupport Addon/NewTenderTicket.m"; sourceTree = "<group>"; };
+		E079357E13B7A1D30005E126 /* Tender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tender.h; path = "TenderSupport Addon/Tender.h"; sourceTree = "<group>"; };
+		E079357F13B7A1D30005E126 /* Tender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tender.m; path = "TenderSupport Addon/Tender.m"; sourceTree = "<group>"; };
+		E079358113B7A1E50005E126 /* Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Support.png; path = "TenderSupport Addon/Support.png"; sourceTree = "<group>"; };
+		E079358213B7A1E50005E126 /* Support@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Support@2x.png"; path = "TenderSupport Addon/Support@2x.png"; sourceTree = "<group>"; };
+		E079358513B7A1F00005E126 /* NewTenderTicket.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NewTenderTicket.xib; path = "TenderSupport Addon/NewTenderTicket.xib"; sourceTree = "<group>"; };
+		E079358713B7A1FC0005E126 /* TenderSupportViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TenderSupportViewController.xib; path = XIBS/TenderSupportViewController.xib; sourceTree = "<group>"; };
+		E079358913B7A1FF0005E126 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = XIBS/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0323DB1139C015A00125E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0323DB9139C015A00125E58 /* UIKit.framework in Frameworks */,
+				E0323DBB139C015A00125E58 /* Foundation.framework in Frameworks */,
+				E0323DBD139C015A00125E58 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0323DA9139C015A00125E58 = {
+			isa = PBXGroup;
+			children = (
+				E079355E13B7A1510005E126 /* JSON */,
+				E0323DBE139C015A00125E58 /* TenderSupport */,
+				E0323DB7139C015A00125E58 /* Frameworks */,
+				E0323DB5139C015A00125E58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0323DB5139C015A00125E58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0323DB4139C015A00125E58 /* TenderSupport.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0323DB7139C015A00125E58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0323DB8139C015A00125E58 /* UIKit.framework */,
+				E0323DBA139C015A00125E58 /* Foundation.framework */,
+				E0323DBC139C015A00125E58 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0323DBE139C015A00125E58 /* TenderSupport */ = {
+			isa = PBXGroup;
+			children = (
+				E0FEE8B113B79515005FFF8B /* Images */,
+				E0FEE8B013B79501005FFF8B /* XIBS */,
+				E079357B13B7A1CB0005E126 /* NewTenderTicket.h */,
+				E079357C13B7A1CB0005E126 /* NewTenderTicket.m */,
+				E079357E13B7A1D30005E126 /* Tender.h */,
+				E079357F13B7A1D30005E126 /* Tender.m */,
+				E0323DC7139C015A00125E58 /* TenderSupportAppDelegate.h */,
+				E0323DC8139C015A00125E58 /* TenderSupportAppDelegate.m */,
+				E0323DCD139C015A00125E58 /* TenderSupportViewController.h */,
+				E0323DCE139C015A00125E58 /* TenderSupportViewController.m */,
+				E0323DBF139C015A00125E58 /* Supporting Files */,
+			);
+			path = TenderSupport;
+			sourceTree = "<group>";
+		};
+		E0323DBF139C015A00125E58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0323DC0139C015A00125E58 /* TenderSupport-Info.plist */,
+				E0323DC1139C015A00125E58 /* InfoPlist.strings */,
+				E0323DC4139C015A00125E58 /* main.m */,
+				E0323DC6139C015A00125E58 /* TenderSupport-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E079355E13B7A1510005E126 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E079355F13B7A1510005E126 /* JSON.h */,
+				E079356013B7A1510005E126 /* NSObject+JSON.h */,
+				E079356113B7A1510005E126 /* NSObject+JSON.m */,
+				E079356213B7A1510005E126 /* SBJsonParser.h */,
+				E079356313B7A1510005E126 /* SBJsonParser.m */,
+				E079356413B7A1510005E126 /* SBJsonStreamParser.h */,
+				E079356513B7A1510005E126 /* SBJsonStreamParser.m */,
+				E079356613B7A1510005E126 /* SBJsonStreamParserAdapter.h */,
+				E079356713B7A1510005E126 /* SBJsonStreamParserAdapter.m */,
+				E079356813B7A1510005E126 /* SBJsonStreamParserState.h */,
+				E079356913B7A1510005E126 /* SBJsonStreamParserState.m */,
+				E079356A13B7A1510005E126 /* SBJsonStreamWriter.h */,
+				E079356B13B7A1510005E126 /* SBJsonStreamWriter.m */,
+				E079356C13B7A1510005E126 /* SBJsonStreamWriterState.h */,
+				E079356D13B7A1510005E126 /* SBJsonStreamWriterState.m */,
+				E079356E13B7A1510005E126 /* SBJsonTokeniser.h */,
+				E079356F13B7A1510005E126 /* SBJsonTokeniser.m */,
+				E079357013B7A1510005E126 /* SBJsonWriter.h */,
+				E079357113B7A1510005E126 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			path = TenderSupport/JSON;
+			sourceTree = "<group>";
+		};
+		E0FEE8B013B79501005FFF8B /* XIBS */ = {
+			isa = PBXGroup;
+			children = (
+				E079358913B7A1FF0005E126 /* MainWindow.xib */,
+				E079358713B7A1FC0005E126 /* TenderSupportViewController.xib */,
+				E079358513B7A1F00005E126 /* NewTenderTicket.xib */,
+			);
+			name = XIBS;
+			sourceTree = "<group>";
+		};
+		E0FEE8B113B79515005FFF8B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E079358113B7A1E50005E126 /* Support.png */,
+				E079358213B7A1E50005E126 /* Support@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0323DB3139C015A00125E58 /* TenderSupport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0323DD5139C015A00125E58 /* Build configuration list for PBXNativeTarget "TenderSupport" */;
+			buildPhases = (
+				E0323DB0139C015A00125E58 /* Sources */,
+				E0323DB1139C015A00125E58 /* Frameworks */,
+				E0323DB2139C015A00125E58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TenderSupport;
+			productName = TenderSupport;
+			productReference = E0323DB4139C015A00125E58 /* TenderSupport.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0323DAB139C015A00125E58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = SonsterMedia;
+			};
+			buildConfigurationList = E0323DAE139C015A00125E58 /* Build configuration list for PBXProject "TenderSupport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0323DA9139C015A00125E58;
+			productRefGroup = E0323DB5139C015A00125E58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0323DB3139C015A00125E58 /* TenderSupport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0323DB2139C015A00125E58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0323DC3139C015A00125E58 /* InfoPlist.strings in Resources */,
+				E079358313B7A1E50005E126 /* Support.png in Resources */,
+				E079358413B7A1E50005E126 /* Support@2x.png in Resources */,
+				E079358613B7A1F00005E126 /* NewTenderTicket.xib in Resources */,
+				E079358813B7A1FC0005E126 /* TenderSupportViewController.xib in Resources */,
+				E079358A13B7A1FF0005E126 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0323DB0139C015A00125E58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0323DC5139C015A00125E58 /* main.m in Sources */,
+				E0323DC9139C015A00125E58 /* TenderSupportAppDelegate.m in Sources */,
+				E0323DCF139C015A00125E58 /* TenderSupportViewController.m in Sources */,
+				E079357213B7A1510005E126 /* NSObject+JSON.m in Sources */,
+				E079357313B7A1510005E126 /* SBJsonParser.m in Sources */,
+				E079357413B7A1510005E126 /* SBJsonStreamParser.m in Sources */,
+				E079357513B7A1510005E126 /* SBJsonStreamParserAdapter.m in Sources */,
+				E079357613B7A1510005E126 /* SBJsonStreamParserState.m in Sources */,
+				E079357713B7A1510005E126 /* SBJsonStreamWriter.m in Sources */,
+				E079357813B7A1510005E126 /* SBJsonStreamWriterState.m in Sources */,
+				E079357913B7A1510005E126 /* SBJsonTokeniser.m in Sources */,
+				E079357A13B7A1510005E126 /* SBJsonWriter.m in Sources */,
+				E079357D13B7A1CB0005E126 /* NewTenderTicket.m in Sources */,
+				E079358013B7A1D30005E126 /* Tender.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0323DC1139C015A00125E58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0323DC2139C015A00125E58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0323DD3139C015A00125E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0323DD4139C015A00125E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0323DD6139C015A00125E58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TenderSupport/TenderSupport-Prefix.pch";
+				INFOPLIST_FILE = "TenderSupport/TenderSupport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0323DD7139C015A00125E58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TenderSupport/TenderSupport-Prefix.pch";
+				INFOPLIST_FILE = "TenderSupport/TenderSupport-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0323DAE139C015A00125E58 /* Build configuration list for PBXProject "TenderSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0323DD3139C015A00125E58 /* Debug */,
+				E0323DD4139C015A00125E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0323DD5139C015A00125E58 /* Build configuration list for PBXNativeTarget "TenderSupport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0323DD6139C015A00125E58 /* Debug */,
+				E0323DD7139C015A00125E58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0323DAB139C015A00125E58 /* Project object */;
+}
