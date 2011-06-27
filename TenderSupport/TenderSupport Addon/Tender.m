@@ -11,8 +11,11 @@
 
 static Tender *_sharedInstance;
 #error INPUT AUTH KEY AND ACCOUNT NAME
+//Read and Write API Key that you can find on your TenderApp account
 #define AUTH @""
+//The first part of your TenderApp URL (example.tenderapp.com)
 #define ACCOUNT_NAME @""
+//Leave this unchanged
 #define API_URL @"api.tenderapp.com"
 
 
