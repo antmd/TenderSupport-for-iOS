@@ -1,4 +1,5 @@
-TenderSupport for iOS allows developers to integrate the wonderful TenderApp support system into their application. Easily get user feedback on bugs, problems, and suggestions. Adding this to your application can help decrease negative reviews from bugs or crashes. Takes about five minutes to configure and add to your application.
+TenderSupport for iOS allows developers to integrate the wonderful TenderApp support system into their application. 
+Easily get user feedback on bugs, problems, and suggestions. Adding this to your application can help decrease negative reviews from bugs or crashes. Takes about five minutes to configure and add to your application.
 
 Easily integrate Tender support into your applications. In less than five minutes, you can add this feature into your application.
 
@@ -18,6 +19,12 @@ then your category will be 34912
 
 9. Input this into the NewTenderTicket.m creationDiscussion method
 10. Build and Run.
+
+Example:
+My Task Management application TapTask included the TenderSupport code. Overall, I've noticed more ticket created for issues
+that my customers might have complained about by leaving a one-star review. TenderSupport allows my customers to get in contact
+with me very easily. With TenderSupport and TenderApp, my customers are much happier.
+http://itunes.apple.com/us/app/taptask/id428949446?mt=8
 
 
 Requirements:
